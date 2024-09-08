@@ -23,10 +23,120 @@
     background-color: white;
 }
 
+.rumus-luas-segitiga-form-header {
+    text-align: center;
+}
+
+.margin-dimana {
+    margin-bottom: 0;
+}
+
+.margin-luas {
+    margin-bottom: 0;
+}
+
+.margin-panjang-alas {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-tinggi {
+    margin-top: 0;
+}
+
 .luas-segitiga-header {
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
     background: lightskyblue;
     text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.luas-segitiga-img {
+    height: 200px;
+    width: 200px;
+    background-image: url(http://localhost/img/Gambar%20segitiga.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+.rumus-keliling-segitiga-form-header {
+    text-align: center;
+}
+
+.margin-keliling-dimana {
+    margin-bottom: 0;
+}
+
+.margin-keliling {
+    margin-bottom: 0;
+}
+
+.margin-s1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-s2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-s3 {
+    margin-top: 0;
+}
+
+.keliling-segitiga-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: lightskyblue;
+    text-align: center;
+}
+
+.keliling-segitiga-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.keliling-segitiga-img {
+    height: 200px;
+    width: 200px;
+    background-image: url(http://localhost/img/Gambar%20segitiga.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.keliling-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.input-wrapper>input {
+    width: 65%;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content>aside {
+    flex: 1;
 }
