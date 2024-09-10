@@ -47,16 +47,24 @@
     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" />
+                        <input type="number" id="panjang-alas" name="panjang-alas" required />
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" />
+                        <input type="number" id="tinggi" name="tinggi" required />
                     </div>
                         
-                    <p id="result">Hasil Perhitungan:</p>
+                    <p id="hasilLuas">Hasil Perhitungan:</p>
     
-                    <button>Hitung</button>
+                    <button type="button" onclick="hitungLuas()">Hitung</button>
+                    <p id="hasilLangkah"></p>
+                    
+                </form>
+
+                <form>
+                    <div class="container">
+                        <button class="blue-button" type="button" onclick="resetForm()">Reset</button>
+                    </div>
                 </form>
             </aside>
     
@@ -72,7 +80,7 @@
 
                 <form>
                     <header class="rumus-keliling-segitiga-form-header">
-                        <h1>K = S1 x S2 x S3</h1>
+                        <h1>K = S1 + S2 + S3</h1>
                     </header>
                         <p class="margin-keliling-dimana">Di mana:</p>
                         <p class="margin-keliling">K = Keliling</p>
@@ -87,24 +95,32 @@
                     </header>
     
                     <div class="input-wrapper">
-                        <label for="Sisi1">Sisi 1:</label>
-                        <input id="Sisi1" />
+                        <label for="sisi1">Sisi 1:</label>
+                        <input type="number" id="sisi1" name="sisi1" required />
                     </div>
                     <div class="input-wrapper">
                         <label for="sisi2">Sisi 2:</label>
-                        <input id="sisi2" />
+                        <input type="number" id="sisi2" name="sisi2" required />
                     </div>
                     <div class="input-wrapper">
                         <label for="sisi3">Sisi 3:</label>
-                        <input id="sisi3" />
+                        <input type="number" id="sisi3" name="sisi3" required />
                     </div>
-                    <p id="result">Hasil Perhitungan:</p>
+                    <p id="hasilKeliling">Hasil Perhitungan:</p>
     
-                    <button>Hitung</button>
+                    <button type="button" onclick="hitungKeliling()">Hitung</button>
+                    <p id="hasilRumus"></p>
                 </form>
+
+                <form>
+                    <div class="container">
+                        <button class="blue-button" type="button" onclick="resetKeliling()">Reset</button>
+                    </div>
+                </form>
+
             </aside>
         </section>
     </main>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

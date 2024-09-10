@@ -61,7 +61,7 @@
 .luas-segitiga-img {
     height: 200px;
     width: 200px;
-    background-image: url(http://localhost/img/Gambar%20segitiga.jpg);
+    background-image: url(https://sirigachi.wordpress.com/wp-content/uploads/2024/09/gambar-segitiga.jpg?w=767);
     background-size: cover;
     background-position: center;
     align-self: center;
@@ -70,6 +70,67 @@
 .luas-segitiga-form-header {
     text-align: center;
 }
+
+.input-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.hasil-langkah {
+    text-align: justify;
+    color: black;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.hasilLangkah {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.perhitungan-detail {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#hasilLangkah {
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.blue-button {
+    background-color: blue;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
 .rumus-keliling-segitiga-form-header {
     text-align: center;
 }
@@ -113,7 +174,7 @@
 .keliling-segitiga-img {
     height: 200px;
     width: 200px;
-    background-image: url(http://localhost/img/Gambar%20segitiga.jpg);
+    background-image: url(https://sirigachi.wordpress.com/wp-content/uploads/2024/09/gambar-segitiga.jpg?w=767);
     background-size: cover;
     background-position: center;
     align-self: center;
@@ -131,6 +192,29 @@
 
 .input-wrapper>input {
     width: 65%;
+}
+
+.hasil-langkah {
+    text-align: justify;
+    color: black;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.perhitungan-detail {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#hasilRumus {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .main-content {
