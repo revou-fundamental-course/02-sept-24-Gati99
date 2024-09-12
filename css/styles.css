@@ -217,10 +217,157 @@ input[type="number"] {
     font-size: 14px;
 }
 
+#segitigaTab {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 .main-content {
     display: flex;
 }
-
 .main-content>aside {
     flex: 1;
 }
+
+.second-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.second-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.luas-jajar-genjang-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: coral;
+    text-align: center;
+}
+
+.luas-jajar-genjang-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.luas-jajar-genjang-img {
+    height: 100px;
+    width: 165px;
+    background-image: url(https://sirigachi.wordpress.com/wp-content/uploads/2024/09/gambar-jajar-genjang.jpg?w=1024);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.luas-jajar-genjang-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+#hasilLuasJajarGenjang {
+    font-weight: bold;
+}
+
+#hasilRumusLuasJajarGenjang {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.perhitungan-detail {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.keliling-jajar-genjang-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: coral;
+    text-align: center;
+}
+
+.keliling-jajar-genjang-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.keliling-jajar-genjang-img {
+    height: 100px;
+    width: 165px;
+    background-image: url(https://sirigachi.wordpress.com/wp-content/uploads/2024/09/gambar-jajar-genjang.jpg?w=1024);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#hasilLuasJajarGenjang, #hasilKelilingJajarGenjang {
+margin-top: 20px;
+font-weight: bold;
+}
+
+.keliling-jajar-genjang-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.hasil-rumus {
+    text-align: justify;
+    color: black;
+}
+
+.second-content {
+    display: flex;
+}
+
+.second-content>aside {
+    flex: 1;
+}
+

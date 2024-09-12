@@ -15,11 +15,11 @@
 
     <main>
         <section class="selection-content">
-            <button href="#" type="button" class="selection-button deepskyblue-color">Segitiga</button>
-            <button href="#" type="button" class="selection-button white-color">Jajar Genjang</button>
+            <button id="segitigaButton" href="#" type="button" class="selection-button deepskyblue-color">Segitiga</button>
+            <button id="jajarGenjangButton" href="#" type="button" class="selection-button white-color">Jajar Genjang</button>
         </section>
 
-        <section class="main-content">
+        <section id="segitigaTab" class="main-content">
             <aside>
                 <header>
                     <h1 class="luas-segitiga-header">Luas Segitiga</h1>
@@ -118,6 +118,99 @@
                     </div>
                 </form>
 
+            </aside>
+        </section>
+        <section id="jajarGenjangTab" class="second-content" style="display: none;">
+            <aside>
+                <header>
+                    <h1 class="luas-jajar-genjang-header">Luas Jajar Genjang</h1>
+                </header>
+                <article class="luas-jajar-genjang-content">
+                    <div class="luas-jajar-genjang-img"></div>
+                    <p>Rumus Luas Jajar Genjang yaitu:</p>
+                </article>
+        
+                <form>
+                    <header class="rumus-jajar-genjang-form-header">
+                        <h1>L = a x t</h1>
+                    </header>
+                    <p class="margin-dimana">Di mana:</p>
+                    <p class="margin-luas">L = Luas</p>
+                    <p class="margin-panjang-alas">a = Panjang Alas</p>
+                    <p class="margin-tinggi">t = Tinggi</p>
+                </form>
+        
+                <form id="formLuas">
+                    <header>
+                        <h1 class="luas-jajar-genjang-form-header">Hitung Luas Jajar Genjang</h1>
+                    </header>
+            
+                    <div class="input-wrapper">
+                        <label for="panjang-alas-jajar-genjang">Panjang Alas:</label>
+                        <input type="number" id="panjang-alas-jajar-genjang" name="panjang-alas-jajar-genjang" required />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi-jajar-genjang">Tinggi:</label>
+                        <input type="number" id="tinggi-jajar-genjang" name="tinggi-jajar-genjang" required />
+                    </div>
+                        
+                    <p id="hasilLuasJajarGenjang">Hasil Perhitungan:</p>
+            
+                    <button type="button" onclick="hitungLuasJajarGenjang()">Hitung</button>
+                    <p id="hasilRumusLuasJajarGenjang"></p>
+                </form>
+        
+                <form>
+                    <div class="container">
+                        <button class="blue-button" type="button" onclick="resetLuas()">Reset</button>
+                    </div>
+                </form>
+            </aside>
+    
+            <aside>
+                <header>
+                    <h1 class="keliling-jajar-genjang-header">Keliling Jajar Genjang</h1>
+                </header>
+    
+                <article class="keliling-jajar-genjang-content">
+                    <div class="keliling-jajar-genjang-img"></div>
+                    <p>Rumus Keliling Jajar Genjang yaitu:</p>
+                </article>
+
+                <form>
+                    <header class="rumus-keliling-jajar-genjang-form-header">
+                        <h1>K = 2 (panjang x lebar)</h1>
+                    </header>
+                        <p class="margin-keliling-dimana">Di mana:</p>
+                        <p class="margin-keliling">K = Keliling</p>
+                        <p class="margin-panjang">Panjang = Sisi a</p>
+                        <p class="margin-lebar">Lebar = Sisi b</p>
+                </form>
+
+                <form>
+                    <header>
+                        <h1 class="keliling-jajar-genjang-form-header">Hitung Keliling Jajar Genjang</h1>
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang">Panjang:</label>
+                        <input type="number" id="panjang" name="panjang" required />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="lebar">Lebar:</label>
+                        <input type="number" id="lebar" name="lebar" required />
+                    </div>
+                    <p id="hasilKelilingJajarGenjang">Hasil Perhitungan:</p>
+                    
+                    <button type="button" onclick="hitungKelilingJajarGenjang()">Hitung</button>
+                    <p id="hasilRumusKelilingJajarGenjang"></p>
+                </form>
+
+                <form>
+                    <div class="container">
+                        <button class="blue-button" type="button" onclick="resetKelilingJajarGenjang()">Reset</button>
+                    </div>
+                </form>
             </aside>
         </section>
     </main>
